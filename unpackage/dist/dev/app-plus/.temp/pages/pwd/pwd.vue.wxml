@@ -1,0 +1,13 @@
+<template name="58efca40">
+  <view class="_view data-v-685aa04f content">
+    <view class="_view data-v-685aa04f input-group">
+      <view class="_view data-v-685aa04f input-row">
+        <text class="_text data-v-685aa04f title">邮箱：</text>
+        <input type="text" value="{{email}}" bindinput="handleProxy" placeholder="请输入邮箱" data-eventid="{{'6cS-0'}}" data-comkey="{{$k}}" class="_input data-v-685aa04f" />
+      </view>
+    </view>
+    <view class="_view data-v-685aa04f btn-row">
+      <button type="primary" class="_button data-v-685aa04f primary" bindtap="handleProxy" data-eventid="{{'wzB-1'}}" data-comkey="{{$k}}">提交</button>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,22 @@
+<template name="7569cb98">
+  <view class="_view data-v-ef65fbb2 content">
+    <view class="_view data-v-ef65fbb2 input-group">
+      <view class="_view data-v-ef65fbb2 input-row border">
+        <text class="_text data-v-ef65fbb2 title">账号：</text>
+        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" data-eventid="{{'HMU-0'}}" data-comkey="{{$k}}" class="_input data-v-ef65fbb2" />
+      </view>
+      <view class="_view data-v-ef65fbb2 input-row">
+        <text class="_text data-v-ef65fbb2 title">密码：</text>
+        <input type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'3qp-1'}}" data-comkey="{{$k}}" class="_input data-v-ef65fbb2" />
+      </view>
+    </view>
+    <view class="_view data-v-ef65fbb2 btn-row">
+      <button type="primary" class="_button data-v-ef65fbb2 primary" bindtap="handleProxy" data-eventid="{{'26q-2'}}" data-comkey="{{$k}}">登录</button>
+    </view>
+    <view class="_view data-v-ef65fbb2 action-row">
+      <navigator url="../reg/reg" class="_navigator data-v-ef65fbb2">注册账号</navigator>
+      <text class="_text data-v-ef65fbb2">|</text>
+      <navigator url="../pwd/pwd" class="_navigator data-v-ef65fbb2">忘记密码</navigator>
+    </view>
+  </view>
+</template>
